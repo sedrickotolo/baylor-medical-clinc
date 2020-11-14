@@ -30,29 +30,23 @@
     <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <!-- Top Header Area -->
-        <div class="top-header-area">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 h-100">
-                        <div class="h-100 d-md-flex justify-content-between align-items-center">
-                            <p>Welcome to <span>Baylor Medical Center</p>
-                                <p>Mon to Sat - 8am to 10pm Contact : <span>+256(0) 784369-692</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <!-- Main Header Area -->
+        <!-- Logo Area  -->
+
+    <div class="logoarea">
+       <a class="navbar-brand" href="index.html"><img src="img/core-img/log.png" height="200px" alt="Logo" ></a>
+    </div>
+                         
+
         <div class="main-header-area" id="stickyHeader">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 h-100">
                         <div class="main-menu h-100">
                             <nav class="navbar h-100 navbar-expand-lg">
-                                <!-- Logo Area  -->
-                                <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt="Logo"></a>
-
+                                
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
                                 <div class="collapse navbar-collapse" id="medilifeMenu">
@@ -87,8 +81,8 @@
                                             <a class="nav-link" href="contact.html">Contact</a>
                                         </li>
                                     </ul>
-                                    <!-- Appointment Button -->
-                                    <a href="#" class="btn medilife-appoint-btn ml-30"><span>emergencies</span> </a>
+                                    <!-- Appointment Button 
+                                    <a href="#" class="btn medilife-appoint-btn ml-30"><span>emergencies</span> </a>-->
                                 </div>
                             </nav>
                         </div>
@@ -109,8 +103,13 @@
                         <div class="col-12">
                             <div class="hero-slides-content">
                                 <h2 data-animation="fadeInUp" data-delay="100ms">Baylor Medical Center <br></h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Your Health Life Partner</h6>
-                                <a href="about-us.html" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover BMC <span>+</span></a>
+                                <div class="hours" data-animation="fadeInUp" data-delay="400ms">  
+                                    <p> Opening Hours <br> Mon - Saturday <br> 8:00 am- 10:pm </p>
+                                
+                                </div>
+                                <div  id="appoint" >
+                                <a href="about-us.html"class="btn medilife-btn mt-100" data-animation="fadeInUp" data-delay="700ms">Make Appoinment <span>+</span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -122,9 +121,9 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Medical Services that <br>You can Trust 100%</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">We are easy to access owing to our central location with ample parking space..</h6>
-                                <a href="about-us.html" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover BMC <span>+</span></a>
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Medical Services<br>You can Trust</h2>
+   <h6 data-animation="fadeInUp" data-delay="400ms">Your Health Life Partner</h6>
+                                <a href="contact.html" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Make Appoinment <span>+</span></a>
                             </div>
                         </div>
                     </div>
@@ -137,8 +136,8 @@
                         <div class="col-12">
                             <div class="hero-slides-content">
                                 <h2 data-animation="fadeInUp" data-delay="100ms">Your Life Health <br>Partner</h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Your health our strength</h6>
-                                <a href="about-us.html" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover BMC <span>+</span></a>
+                                <h6 data-animation="fadeInUp" data-delay="400ms">Your health our pride</h6>
+                                <a href="contact.html" class="btn medilife-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Make Appoinment<span>+</span></a>
                             </div>
                         </div>
                     </div>
@@ -158,89 +157,11 @@
                             <div class="col-12 col-lg-9">
                                 <div class="medilife-appointment-form">
                                     <form action="#" method="post">
-                                        <div class="row align-items-end">
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <select class="form-control" id="speciality">
-                                                    <option>Pharmacy </option>
-                                                    <option>Laboratory </option>
-                                                    <option>General Medicine </option>
-                                                    <option>Dental Care </option>
-                                                    <option>Obstetrics & Gynecology </option>
-                                                    <option>Paediatrics </option>
-                                                    <option>Ultra sound scan </option>
-                                                </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <select class="form-control" id="doctors">
-                                                    <option>Doctor</option>
-                                                    <option>Doctor</option>
-                                                    <option>Doctors</option>
-                                                    <option>Doctors </option>
-                                                    <option>Doctors </option>
-                                                </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-2">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="date" id="date" placeholder="Date">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-2">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="time" id="time" placeholder="Time">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0" name="name" id="name" placeholder="Name">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0" name="number" id="number" placeholder="Phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control border-top-0 border-right-0 border-left-0" name="email" id="email" placeholder="E-mail">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-7">
-                                                <div class="form-group mb-0">
-                                                    <textarea name="message" class="form-control mb-0 border-top-0 border-right-0 border-left-0" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-5 mb-0">
-                                                <div class="form-group mb-0">
-                                                    <button type="submit" class="btn medilife-btn">Make an Appointment <span>+</span></button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-3">
-                                <div class="medilife-contact-info">
-                                    <!-- Single Contact Info -->
-                                    <div class="single-contact-info mb-30">
-                                        <img src="img/icons/alarm-clock.png" alt="">
-                                        <p>Mon - Sat 08:00 - 21:00 <br>Sunday CLOSED</p>
-                                    </div>
-                                    <!-- Single Contact Info -->
-                                    <div class="single-contact-info mb-30">
-                                        <img src="img/icons/envelope.png" alt="">
-                                        <p>+256(0) 784369-692 <br>bmc@gmail.com</p>
-                                    </div>
-                                    <!-- Single Contact Info -->
-                                    <div class="single-contact-info">
-                                        <img src="img/icons/map-pin.png" alt="">
-                                        <p>Plot 844 Najjera 1<br>Kampala</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

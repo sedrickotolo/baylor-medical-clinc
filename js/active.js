@@ -60,9 +60,9 @@
             margin: 0,
             loop: true,
             nav: true,
-            navText: ['Prev', 'Next'],
+            // navText: ['<', '>'],
             dots: true,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 5000,
             smartSpeed: 1000
         });
