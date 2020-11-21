@@ -599,7 +599,7 @@ img {
     font-size: 24px; }
   .header-area .main-menu .nav-link:focus {
     /* background-color: #006cff; */
-    font-variant: small-caps;
+    
      }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-area .main-menu .nav-link {
