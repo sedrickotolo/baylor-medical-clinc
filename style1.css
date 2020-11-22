@@ -79,15 +79,6 @@ a {
     font-size: 14px;
     font-weight: 700; }
 
-#preloader {
-  overflow: hidden;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100000;
-  background-color:rgb(210 79 194 / 91%); }
 
 .medilife-load {
   -webkit-animation: 2000ms linear 0s normal none infinite running medilife-load;

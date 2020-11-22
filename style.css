@@ -87,15 +87,6 @@ a {
     font-size: 14px;
     font-weight: 700; }
 
-#preloader {
-  overflow: hidden;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100000;
-  background-color:rgb(210 79 194 / 91%); }
 
 .medilife-load {
   -webkit-animation: 2000ms linear 0s normal none infinite running medilife-load;
@@ -474,7 +465,7 @@ img {
       padding: 15px 0; } }
 
 .main-header-area {
-  width: 100%;
+  width: 50%;
   height: 110px;
   margin-left: 0%;
   margin-right: auto;
@@ -559,7 +550,8 @@ img {
 
   /* this is the sticky bar menu area */
 .is-sticky .main-header-area {
-  width: 100%;
+  display: none;
+  width: 50%;
   z-index: 10000 !important;
   height: 80px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
@@ -588,7 +580,7 @@ img {
 
   
 .header-area .main-menu .nav-link {
-  font-size: 17px;
+  font-size: 14px;
   text-transform: capitalize;
   padding: 10px 20px;
   color: #ffffff;
